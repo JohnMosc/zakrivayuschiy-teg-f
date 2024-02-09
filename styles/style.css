@@ -97,7 +97,7 @@
   gap: 9px;
   font-size: var(--accent-font-size, 14px);
   line-height: 1;
-  max-inline-size: 84px;
+  padding-inline-start: 19px;
 }
 
 .theme-menu__item {
