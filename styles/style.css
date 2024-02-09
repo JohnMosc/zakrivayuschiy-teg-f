@@ -98,7 +98,6 @@
   font-size: var(--accent-font-size, 14px);
   line-height: 1;
   max-inline-size: 84px;
-  max-block-size: 70px;
 }
 
 .theme-menu__item {
