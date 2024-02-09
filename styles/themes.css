@@ -4,3 +4,61 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+  --text-font-weight: 400;
+  --heading-font-weight: 700;
+  --main-background-color: #fff;
+  --main-color-text: #000;
+  --main-color-border: #000;
+  --first-gradient-color: #d3d3d3;
+  --second-gradient-color: #e7e7e7;
+  --third-gradient-color: #1a1a1a;
+  --text-color-shadow: #fff;
+  --color-button-shadow: #000;
+  --color-button-shadow-reverse: #fff;
+  --color-button: #fff;
+  --background-accent-color-button: #fff;
+  --color-floppy: #000;
+  --accent-color-floppy: #fff;
+  --color-heart-contour: #000;
+  --color-hover-heart: #000;
+}
+
+:root.theme-dark {
+  --text-font-weight: 465;
+  --heading-font-weight: 785;
+  --main-background-color: #000;
+  --main-color-text: #00cc14;
+  --main-color-border: #00cc14;
+  --first-gradient-color: #000;
+  --second-gradient-color: #007f0c;
+  --third-gradient-color: #004306;
+  --text-color-shadow: #000;
+  --color-button-shadow-reverse: #00cc14;
+  --color-button-shadow: #007f0c;
+  --color-button: #00cc14;
+  --background-accent-color-button: #00cc14;
+  --color-heart-contour: #00cc14;
+  --color-hover-heart: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-font-weight: 465;
+    --heading-font-weight: 785;
+    --main-background-color: #000;
+    --main-color-text: #00cc14;
+    --main-color-border: #00cc14;
+    --first-gradient-color: #000;
+    --second-gradient-color: #007f0c;
+    --third-gradient-color: #004306;
+    --text-color-shadow: #000;
+    --color-button-shadow: #007f0c;
+    --color-button-shadow-reverse: #00cc14;
+    --color-button: #00cc14;
+    --background-accent-color-button: #00cc14;
+    --color-heart-contour: #00cc14;
+    --color-hover-heart: #00cc14;
+  }
+}
